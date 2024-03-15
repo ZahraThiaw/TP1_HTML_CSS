@@ -1,0 +1,51 @@
+body{
+    background-color: #fff;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    border: #0a4301 solid 2px;
+}
+#conteneur{
+    height: 100vh;
+}
+.haut{
+    background-color: #f4a908;
+    height: 8%;
+    border: #0a4301 solid 1px;
+}
+.menu{
+    background-color: #2163dc;
+    height: 5%;
+    border: #0a4301 solid 2px;
+}
+.milieu{
+    height: 71%;
+    margin: 30px;
+    border: #0a4301 solid 2px;
+}
+.milieu div {
+    border: #0a4301 solid 1px; /* Ajoute une bordure pour visualiser les boîtes */
+    width: 50%; /* Fixe la largeur de chaque élément à 48% pour deux colonnes avec un petit espace entre elles */
+    height: 50%; /* Fixe la hauteur de chaque élément à 48% pour deux lignes avec un petit espace entre elles */
+    float: left; /* Fait flotter les éléments à gauche */
+    box-sizing: border-box; /* Inclut les bordures et les marges dans la largeur spécifiée */
+}
+
+.milieu1{
+    background-color: rgb(209, 121, 6);
+}
+.milieu2{
+    background-color: rgb(173, 194, 187);
+}
+.milieu3{
+    background-color: rgba(133, 4, 219, 0.856);
+}
+.milieu4{
+    background-color: #0a4301;
+}
+.bas{
+    background-color: #f4a908;
+    height: 8%;
+    border: #0a4301 solid 2px;
+}

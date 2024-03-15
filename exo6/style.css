@@ -1,0 +1,39 @@
+.content{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dessin{
+    height: 80%;
+    width: 80%;
+    background-color: gray;
+    border-radius: 50% 5px 50% 5px;
+    position: relative;
+}
+.haut{
+    position: inherit;
+    top: -30px;
+    height: 90px;
+    width: 60%;
+    left: 40%;
+}
+.separator{
+    height: 70%;
+}
+.bas{
+    position: inherit;
+    bottom: 20px;
+    height: 90px;
+    width: 60%;
+    left: 8%;
+}
+.circle{
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    background-color: gray;
+    float: left;
+}
